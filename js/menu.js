@@ -6,8 +6,6 @@ document.querySelector('.menu-fechar').onclick = function() {
     document.documentElement.classList.remove('menu-ativo');
 };
 
-//opicional
-
 document.documentElement.onclick = function(event) {
     if (event.target === document.documentElement) {
         document.documentElement.classList.remove('menu-ativo');
